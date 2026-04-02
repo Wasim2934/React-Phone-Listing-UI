@@ -27,8 +27,8 @@ const Phone = ({ phone }) => {
                         {title}
                     </h1>
 
-                    <p className="font-medium">
-                        ⭐ <span>{rating}</span> <span>{reviews}</span>
+                    <p className="text-[14px] text-gray-400">
+                        ⭐ <span>{rating}</span> | <span>{reviews}</span>
                     </p>
 
                     <ul className="list-disc pl-5 text-[12px] sm:text-[14px] md:text-[15px] mt-2">
@@ -49,7 +49,7 @@ const Phone = ({ phone }) => {
 
             {/* Right section */}
             <div className="flex flex-col items-start md:items-end min-w-30">
-                <h1 className="text-[22px] font-bold">{price}/-</h1>
+                <h1 className="text-[22px] font-semibold">{price}/-</h1>
 
                 <div className="flex flex-col items-start md:items-end">
                     <p className="text-[15px] text-gray-500 line-through">
